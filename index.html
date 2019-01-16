@@ -20,14 +20,25 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media.css">
-	<link href="https://fonts.googleapis.com/css?family=Sintony" rel="stylesheet">
-
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<!-- Link Swiper's CSS -->
 	<link rel="stylesheet" href="libs/dist/css/swiper.min.css">
 
 </head>
 <body >
-
+	<div class="top-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="text-section">
+						<h1><span>Скатертина «Прованс»</span></h1>
+						<h1>Поринь в романтичну атмосферу Франції!</h1>
+					</div>
+				</div>
+				<div class="col-md-6"></div>
+			</div>
+		</div>
+	</div>
 
 
 
@@ -41,59 +52,59 @@
 
 
 
-		<script src="libs/jquery/jquery-1.11.2.min.js"></script>
-		<script src="js/function.js"></script>
-		<script src="js/common.js"></script>
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="js/function.js"></script>
+	<script src="js/common.js"></script>
 
-		<!--timer-->
-		<script type="text/javascript">
-			function getTimeRemaining(endtime) {
-				var t = Date.parse(endtime) - Date.parse(new Date());
-				var seconds = Math.floor((t / 1000) % 60);
-				var minutes = Math.floor((t / 1000 / 60) % 60);
-				var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-				var days = Math.floor(t / (1000 * 60 * 60 * 24));
-				return {
-					total: t,
-					days: days,
-					hours: hours,
-					minutes: minutes,
-					seconds: seconds
-				};
-			}
+	<!--timer-->
+	<script type="text/javascript">
+		function getTimeRemaining(endtime) {
+			var t = Date.parse(endtime) - Date.parse(new Date());
+			var seconds = Math.floor((t / 1000) % 60);
+			var minutes = Math.floor((t / 1000 / 60) % 60);
+			var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+			var days = Math.floor(t / (1000 * 60 * 60 * 24));
+			return {
+				total: t,
+				days: days,
+				hours: hours,
+				minutes: minutes,
+				seconds: seconds
+			};
+		}
 
-			function initializeClock(id, endtime) {
-				var clock = document.getElementById(id);
-				var daysSpan = clock.querySelector(".days");
-				var hoursSpan = clock.querySelector(".hours");
-				var minutesSpan = clock.querySelector(".minutes");
-				var secondsSpan = clock.querySelector(".seconds");
+		function initializeClock(id, endtime) {
+			var clock = document.getElementById(id);
+			var daysSpan = clock.querySelector(".days");
+			var hoursSpan = clock.querySelector(".hours");
+			var minutesSpan = clock.querySelector(".minutes");
+			var secondsSpan = clock.querySelector(".seconds");
 
-				function updateClock() {
-					var t = getTimeRemaining(endtime);
+			function updateClock() {
+				var t = getTimeRemaining(endtime);
 
-					if (t.total <= 0) {
-						clearInterval(timeinterval);
-						var deadline = new Date(Date.parse(new Date()) + 5 * 1000);
-						initializeClock('clockdiv', deadline);
-					}
-
-					daysSpan.innerHTML = t.days;
-					hoursSpan.innerHTML = ("0" + t.hours).slice(-2);
-					minutesSpan.innerHTML = ("0" + t.minutes).slice(-2);
-					secondsSpan.innerHTML = ("0" + t.seconds).slice(-2);
+				if (t.total <= 0) {
+					clearInterval(timeinterval);
+					var deadline = new Date(Date.parse(new Date()) + 5 * 1000);
+					initializeClock('clockdiv', deadline);
 				}
 
-				updateClock();
-				var timeinterval = setInterval(updateClock, 1000);
+				daysSpan.innerHTML = t.days;
+				hoursSpan.innerHTML = ("0" + t.hours).slice(-2);
+				minutesSpan.innerHTML = ("0" + t.minutes).slice(-2);
+				secondsSpan.innerHTML = ("0" + t.seconds).slice(-2);
 			}
 
-			var deadline = new Date(Date.parse(new Date()) + 2 * 24 * 60 * 60 * 1000);
-			initializeClock("clockdiv", deadline);
-		</script>
+			updateClock();
+			var timeinterval = setInterval(updateClock, 1000);
+		}
 
-		<script src="libs/dist/js/swiper.min.js"></script>
-		<script src="libs/pagescrolltoidmaster/jquery.malihu.PageScroll2id.js"></script>
-		<script src="js/lightbox-20160926T131517Z/lightbox/js/lightbox-plus-jquery.min.js"></script>
-	</body>
-	</html>
+		var deadline = new Date(Date.parse(new Date()) + 2 * 24 * 60 * 60 * 1000);
+		initializeClock("clockdiv", deadline);
+	</script>
+
+	<script src="libs/dist/js/swiper.min.js"></script>
+	<script src="libs/pagescrolltoidmaster/jquery.malihu.PageScroll2id.js"></script>
+	<script src="js/lightbox-20160926T131517Z/lightbox/js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>

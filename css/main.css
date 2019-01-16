@@ -1,0 +1,25 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.top-header{
+	background-image: url(../img/93827BDF-C376-4B49-908A-9A4161A0EDC3.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-position: center center;
+	background-size: cover;
+	padding: 100px 15px;
+	text-align: center;
+}
+.top-header .text-section h1{
+	color: #fff;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 32px;
+	text-shadow: 1px 1px #000;
+}
+.top-header .text-section h1 span{
+	background-color: #fff;
+	color: #000;
+	text-shadow: 1px 1px #fff;
+	padding: 10px;
+}
