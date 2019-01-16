@@ -23,3 +23,15 @@ body{
 	text-shadow: 1px 1px #fff;
 	padding: 10px;
 }
+.top-header form{
+	background-color: #fff;
+	padding: 20px 10px;
+	width: 60%;
+	margin: 0 auto;
+	box-shadow: 2px 2px 5px #000;
+}
+.top-header form input{
+	display: block;
+	margin: 20px auto;
+	padding: 10px 20px;
+}
