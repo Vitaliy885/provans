@@ -17,6 +17,7 @@ body{
 	text-transform: uppercase;
 	font-size: 32px;
 	text-shadow: 1px 1px #000;
+	font-family: 'Roboto', sans-serif;
 }
 .top-header .text-section h1 span{
 	background-color: #fff;
@@ -29,15 +30,14 @@ body{
 	font-size: 16px;
 	font-weight: 600;
 	letter-spacing: 2px;
+	font-family: 'Roboto', sans-serif;
 }
 .btn-order-info{
 	padding: 10px 20px;
-	background-color: #fff;
-	color: #000;
+	background-color: #FF132A;
+	color: #fff;
 	text-transform: uppercase;
-	border: 1px solid #000;
-	text-shadow: 1px 1px #fff;
-	box-shadow: 5px 5px #000;
+	border: 1px solid #fff;
 }
 .top-header form{
 	background-color: #fff;
@@ -52,7 +52,7 @@ body{
 	padding: 10px 20px;
 }
 #clockdiv{
-	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #fff;
 	display: inline-block;
 	font-weight: 100;
@@ -119,13 +119,24 @@ body{
 }
 .kremovui{
 	border-right: 40px solid #F5E5D5;
-	height: 1em;
 }
 .jovtui{
 	border-right: 40px solid #FEFF73;
 }
 .rojevui{
 	border-right: 40px solid #FEC8C8;
+}
+.order-za-harakterisikou{
+	background-color: #FF132A;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 15px 25px;
+	transition: all ease-in-out 0.2s;
+}
+.order-za-harakterisikou:hover{
+	text-decoration: none;
+	color: #fff;
+	box-shadow: 0 0 5px #000;
 }
 .perevagu{
 	text-align: justify;

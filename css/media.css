@@ -19,6 +19,9 @@
 	.top-header{
 		background-attachment: scroll;
 	}
+	.perevagu{
+		padding-top: 0;
+	}
 }
 
 
@@ -55,7 +58,9 @@
 /* Custom, iPhone Retina */
 
 @media only screen and (max-width: 375px){
-	
+	.order-za-harakterisikou{
+		font-size: 10px !important;
+	}
 }
 @media only screen and (max-width: 1024px){
 
@@ -69,6 +74,9 @@
 	}
 	.smaller-text-top{
 		font-size: 24px !important;
+	}
+	.order-za-harakterisikou{
+		font-size: 12px;
 	}
 }
 
@@ -133,6 +141,9 @@
 	}
 	#clockdiv{
 		font-size: 24px;
+	}
+	.order-za-harakterisikou{
+		font-size: 8px !important;
 	}
 }
 
