@@ -65,7 +65,7 @@
 
 @media only screen and (max-width: 375px){
 	.order-za-harakterisikou{
-		font-size: 10px !important;
+		font-size: 14px !important;
 	}
 }
 @media only screen and (max-width: 1024px){
@@ -82,7 +82,7 @@
 		font-size: 24px !important;
 	}
 	.order-za-harakterisikou{
-		font-size: 12px;
+		font-size: 16px;
 	}
 		.modal-window-zam-har #form-two{
 		width: 80%;
@@ -155,7 +155,7 @@
 		font-size: 24px;
 	}
 	.order-za-harakterisikou{
-		font-size: 8px !important;
+		font-size: 13px !important;
 	}
 }
 

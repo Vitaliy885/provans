@@ -32,6 +32,12 @@ body{
 	letter-spacing: 2px;
 	font-family: 'Roboto', sans-serif;
 }
+.top-header .text-section p span{
+	background-color: #FF132A;
+	padding: 5px 10px;
+	text-decoration: underline;
+	color: #fff;
+}
 .btn-order-info{
 	padding: 10px 20px;
 	background-color: #FF132A;
@@ -140,6 +146,26 @@ body{
 	color: #fff;
 	box-shadow: 0 0 5px #000;
 }
+.rozmiru{
+	text-align: justify;
+	padding: 50px 15px;
+}
+.rozmiru span{
+	border-left: 2px solid #000;
+	padding: 10px 20px;
+}
+.rozmiru h2{
+	text-transform: uppercase;
+}
+.rozmiru h3 span{
+	background-color: #FF132A;
+	border-left: 1px solid #FF132A;
+	color: #fff;
+}
+.rozmiru table{
+	text-align: center;
+	margin: 0 auto;
+}
 .perevagu{
 	text-align: justify;
 	padding: 50px 15px;
@@ -194,9 +220,11 @@ body{
 	display: block;
 	margin: 15px auto;
 	padding: 5px 10px;
+	outline: none;
 }
 .modal-window-zam-har #form-two #forma-skatertina{
 	display: block;
 	margin: 15px auto;
+	outline: none;
 	padding: 5px 10px;
 }
