@@ -9,6 +9,7 @@ body{
 	background-size: cover;
 	padding: 100px 15px;
 	text-align: center;
+	background-attachment: fixed;
 }
 .top-header .text-section h1{
 	color: #fff;
@@ -28,6 +29,15 @@ body{
 	font-size: 16px;
 	font-weight: 600;
 	letter-spacing: 2px;
+}
+.btn-order-info{
+	padding: 10px 20px;
+	background-color: #fff;
+	color: #000;
+	text-transform: uppercase;
+	border: 1px solid #000;
+	text-shadow: 1px 1px #fff;
+	box-shadow: 5px 5px #000;
 }
 .top-header form{
 	background-color: #fff;
@@ -98,11 +108,24 @@ body{
 	text-align: left;
 	font-size: 16px;
 }
+.harakteristiku ul li{
+	margin: 5px auto;
+}
 .harakteristiku p{
 	font-size: 16px;
 }
 .harakteristiku h3{
 	text-transform: uppercase;	
+}
+.kremovui{
+	border-right: 40px solid #F5E5D5;
+	height: 1em;
+}
+.jovtui{
+	border-right: 40px solid #FEFF73;
+}
+.rojevui{
+	border-right: 40px solid #FEC8C8;
 }
 .perevagu{
 	text-align: justify;

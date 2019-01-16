@@ -16,6 +16,9 @@
 	.top-header form{
 		margin-top: 40px;
 	}
+	.top-header{
+		background-attachment: scroll;
+	}
 }
 
 
