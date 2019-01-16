@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Скатертина «Прованс» Поринь в романтичну атмосферу Франції!</title>
+	<meta name="description" content="">
+	<link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.css">
+	<link rel="shortcut icon" href="img/4.jpg" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="js/lightbox-20160926T131517Z/lightbox/css/lightbox.min.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link href="https://fonts.googleapis.com/css?family=Sintony" rel="stylesheet">
+
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="libs/dist/css/swiper.min.css">
+
+</head>
+<body >
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+		<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+		<script src="js/function.js"></script>
+		<script src="js/common.js"></script>
+
+		<!--timer-->
+		<script type="text/javascript">
+			function getTimeRemaining(endtime) {
+				var t = Date.parse(endtime) - Date.parse(new Date());
+				var seconds = Math.floor((t / 1000) % 60);
+				var minutes = Math.floor((t / 1000 / 60) % 60);
+				var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+				var days = Math.floor(t / (1000 * 60 * 60 * 24));
+				return {
+					total: t,
+					days: days,
+					hours: hours,
+					minutes: minutes,
+					seconds: seconds
+				};
+			}
+
+			function initializeClock(id, endtime) {
+				var clock = document.getElementById(id);
+				var daysSpan = clock.querySelector(".days");
+				var hoursSpan = clock.querySelector(".hours");
+				var minutesSpan = clock.querySelector(".minutes");
+				var secondsSpan = clock.querySelector(".seconds");
+
+				function updateClock() {
+					var t = getTimeRemaining(endtime);
+
+					if (t.total <= 0) {
+						clearInterval(timeinterval);
+						var deadline = new Date(Date.parse(new Date()) + 5 * 1000);
+						initializeClock('clockdiv', deadline);
+					}
+
+					daysSpan.innerHTML = t.days;
+					hoursSpan.innerHTML = ("0" + t.hours).slice(-2);
+					minutesSpan.innerHTML = ("0" + t.minutes).slice(-2);
+					secondsSpan.innerHTML = ("0" + t.seconds).slice(-2);
+				}
+
+				updateClock();
+				var timeinterval = setInterval(updateClock, 1000);
+			}
+
+			var deadline = new Date(Date.parse(new Date()) + 2 * 24 * 60 * 60 * 1000);
+			initializeClock("clockdiv", deadline);
+		</script>
+
+		<script src="libs/dist/js/swiper.min.js"></script>
+		<script src="libs/pagescrolltoidmaster/jquery.malihu.PageScroll2id.js"></script>
+		<script src="js/lightbox-20160926T131517Z/lightbox/js/lightbox-plus-jquery.min.js"></script>
+	</body>
+	</html>
