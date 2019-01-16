@@ -32,15 +32,34 @@
 				<div class="col-md-6">
 					<div class="text-section">
 						<h1><span>Скатертина «Прованс»</span></h1>
-						<h1>Поринь в романтичну атмосферу Франції!</h1>
+						<h1 class="smaller-text-top">Поринь в романтичну атмосферу Франції!</h1>
+						<p>Діють акційні ціни</p>
+						<div id="clockdiv">
+							<div style="display: none;">
+								<span class="days"></span>
+								<div class="smalltext">Днів</div>
+							</div>
+							<div>
+								<span class="hours"></span>
+								<div class="smalltext">Годин</div>
+							</div>
+							<div>
+								<span class="minutes"></span>
+								<div class="smalltext">Хвилин</div>
+							</div>
+							<div class="offset-seconds" >
+								<span class="seconds"></span>
+								<div class="smalltext">Секунд</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-6">
-				<form id="form">
-						<h2>Дізнатись</h2>
+					<form id="form">
+						<h2>Замовити зараз та отримати <u>бонус</u> </h2>
 						<input type="text" name="name2" required class="text-order" placeholder="Ваше ім'я">
 						<input type="number" name="phone2" required class="text-order" placeholder="Ваш телефон">
-						<input type="submit" class="btn-order-info" name="send" value="Надіслати">
+						<input type="submit" class="btn-order-info" name="send" value="Замовити">
 					</form>
 				</div>
 			</div>
@@ -106,7 +125,7 @@
 			var timeinterval = setInterval(updateClock, 1000);
 		}
 
-		var deadline = new Date(Date.parse(new Date()) + 2 * 24 * 60 * 60 * 1000);
+		var deadline = new Date(Date.parse(new Date()) + 4 * 24 * 60 * 60 * 1000);
 		initializeClock("clockdiv", deadline);
 	</script>
 

@@ -13,7 +13,9 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	
+	.top-header form{
+		margin-top: 40px;
+	}
 }
 
 
@@ -61,6 +63,9 @@
 @media only screen and (max-width: 425px){
 	.top-header form{
 		width: 90%;
+	}
+	.smaller-text-top{
+		font-size: 24px !important;
 	}
 }
 
@@ -123,7 +128,9 @@
 	.top-header form{
 		width: 100%;
 	}
-
+	#clockdiv{
+		font-size: 24px;
+	}
 }
 
 /* Extra Small Devices, Phones */
