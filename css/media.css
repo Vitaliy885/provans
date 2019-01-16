@@ -22,6 +22,12 @@
 	.perevagu{
 		padding-top: 0;
 	}
+	.modal-window-zam-har #form-two{
+		width: 70%;
+	}
+	.modal-window-zam-har #form-two input{
+		width: 75%;
+	}
 }
 
 
@@ -77,6 +83,12 @@
 	}
 	.order-za-harakterisikou{
 		font-size: 12px;
+	}
+		.modal-window-zam-har #form-two{
+		width: 80%;
+	}
+	.modal-window-zam-har #form-two input{
+		width: 100%;
 	}
 }
 

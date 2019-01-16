@@ -71,7 +71,7 @@ body{
 	padding: 15px;
 	border-radius: 3px;
 	display: inline-block;
-		border: 1px solid #fff;
+	border: 1px solid #fff;
 }
 
 .smalltext{
@@ -132,6 +132,8 @@ body{
 	text-transform: uppercase;
 	padding: 15px 25px;
 	transition: all ease-in-out 0.2s;
+	border:1px solid #FF132A;
+	outline: none;
 }
 .order-za-harakterisikou:hover{
 	text-decoration: none;
@@ -151,4 +153,50 @@ body{
 }
 .perevagu p{
 	font-size: 16px;
+}
+/*modal window*/
+.modal-window-zam-har{
+	background-color: #fff;
+	position: fixed;
+	z-index: 9998;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;	
+	text-align: center;
+	display: none;
+}
+.modal-window-zam-har #form-two{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	z-index: 9999;
+	box-shadow: 0 0 5px #000;
+	width: 50%;
+	padding: 20px;
+}
+.modal-window-zam-har #form-two .fa{
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	z-index: 9999;
+	cursor: pointer;
+}
+.modal-window-zam-har #form-two input{
+	display: block;
+	margin: 20px auto;
+	padding: 15px 30px;
+	border: 1px solid #ccc;
+	width: 60%;
+}
+.modal-window-zam-har #form-two #color-skatertina{
+	display: block;
+	margin: 15px auto;
+	padding: 5px 10px;
+}
+.modal-window-zam-har #form-two #forma-skatertina{
+	display: block;
+	margin: 15px auto;
+	padding: 5px 10px;
 }
