@@ -165,6 +165,20 @@ body{
 .rozmiru table{
 	text-align: center;
 	margin: 0 auto;
+	font-size: 16px;
+}
+.price-zi-znujkou{
+	background-color: #FF132A;
+	color: #fff;
+	font-weight: 600;
+}
+.perekreclutu-price{
+	text-decoration-line: line-through;
+}
+.rozmiru table tr th{
+	text-transform: uppercase;
+	padding: 5px 10px;
+	text-align: center;
 }
 .perevagu{
 	text-align: justify;
@@ -176,6 +190,7 @@ body{
 }
 .perevagu h2{
 	text-transform: uppercase;
+	margin-bottom: 20px;
 }
 .perevagu p{
 	font-size: 16px;
