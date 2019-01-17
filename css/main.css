@@ -13,7 +13,7 @@ body{
 	-webkit-background-size: cover;
 	background-position: center center;
 	background-size: cover;
-	padding: 100px 15px;
+	padding: 80px 15px;
 	text-align: center;
 	background-attachment: fixed;
 }
@@ -30,7 +30,7 @@ body{
 	color: #000;
 	text-shadow: 1px 1px #fff;
 	padding: 10px;
-	font-family: 'Pacifico', cursive;
+	font-family: 'Kurale', serif;
 }
 .top-header .text-section p{
 	color: #fff;
@@ -39,6 +39,9 @@ body{
 	letter-spacing: 2px;
 	font-family: 'Roboto', sans-serif;
 }
+.smaller-text-top{
+	font-family: 'Kurale', serif !important;
+}
 .top-header .text-section ul{
 	color: #fff;
 	width: 50%;
@@ -46,8 +49,9 @@ body{
 }
 .top-header .text-section ul li{
 	letter-spacing: 1px;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 600;
+	font-family: 'Kurale', serif;
 	margin: 5px auto;
 }
 .top-header .text-section p{
@@ -58,6 +62,8 @@ body{
 	padding: 5px 10px;
 	text-decoration: underline;
 	color: #fff;
+	font-size: 22px;
+	font-family: 'Kurale', serif;
 }
 .btn-order-info{
 	padding: 10px 20px;
@@ -66,6 +72,7 @@ body{
 	text-transform: uppercase;
 	border: 1px solid #fff;
 	margin-bottom: 10px;
+	font-weight: 600;
 }
 .top-header form{
 	background-color: #fff;
@@ -79,6 +86,7 @@ body{
 	background-color: #FF132A;
 	color: #fff;
 	padding: 5px;
+	font-family: 'Kurale', serif;
 }
 .top-header form input{
 	display: block;
