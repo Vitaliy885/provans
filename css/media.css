@@ -28,6 +28,10 @@
 	.modal-window-zam-har #form-two input{
 		width: 75%;
 	}
+	.footer #form-three span{
+		background-color: #FF132A;
+		padding: 5px 10px;
+	}
 }
 
 
