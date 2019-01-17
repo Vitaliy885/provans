@@ -74,6 +74,9 @@ body{
 	margin-bottom: 10px;
 	font-weight: 600;
 }
+.zamovutu-zi-discount{
+	font-family: 'Kurale', serif;
+}
 .top-header form{
 	background-color: #fff;
 	padding: 10px;
@@ -96,7 +99,7 @@ body{
 	letter-spacing: 1px;
 }
 #clockdiv{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Kurale', serif;
 	color: #000;
 	display: inline-block;
 	font-weight: 100;
