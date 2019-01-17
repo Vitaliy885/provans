@@ -72,6 +72,9 @@
 	.order-za-harakterisikou{
 		font-size: 14px !important;
 	}
+	.top-header .text-section ul{
+		width: 90% !important;
+	}
 }
 @media only screen and (max-width: 1024px){
 
@@ -89,7 +92,7 @@
 	.order-za-harakterisikou{
 		font-size: 16px;
 	}
-		.modal-window-zam-har #form-two{
+	.modal-window-zam-har #form-two{
 		width: 80%;
 	}
 	.modal-window-zam-har #form-two input{
@@ -103,6 +106,12 @@
 	}
 	.footer #form-three span{
 		line-height: 1.5;
+	}
+	.top-header .text-section h1 span{
+		line-height: 1.5;
+	}
+	.top-header .text-section ul{
+		width: 70%;
 	}
 }
 

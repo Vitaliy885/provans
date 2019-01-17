@@ -1,6 +1,12 @@
 body{
 	font-family: 'Montserrat', sans-serif;
 }
+.top-line{
+	padding: 10px 15px;
+}
+.top-line img{
+	height: 70px;
+}
 .top-header{
 	background-image: url(../img/93827BDF-C376-4B49-908A-9A4161A0EDC3.jpg);
 	background-repeat: no-repeat;
@@ -32,6 +38,20 @@ body{
 	letter-spacing: 2px;
 	font-family: 'Roboto', sans-serif;
 }
+.top-header .text-section ul{
+	color: #fff;
+	width: 50%;
+	margin: 10px auto;
+}
+.top-header .text-section ul li{
+	letter-spacing: 1px;
+	font-size: 18px;
+	font-weight: 600;
+	margin: 5px auto;
+}
+.top-header .text-section p{
+	font-size: 18px;
+}
 .top-header .text-section p span{
 	background-color: #FF132A;
 	padding: 5px 10px;
@@ -47,15 +67,16 @@ body{
 }
 .top-header form{
 	background-color: #fff;
-	padding: 30px 15px;
-	width: 60%;
+	padding: 50px 15px;
+	width: 70%;
 	margin: 0 auto;
 	box-shadow: 2px 2px 5px #000;
 }
 .top-header form input{
 	display: block;
+	width: 80%;
 	margin: 20px auto;
-	padding: 10px 20px;
+	padding: 12px 20px;
 	letter-spacing: 1px;
 }
 #clockdiv{
