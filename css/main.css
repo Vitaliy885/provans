@@ -264,6 +264,24 @@ body{
 .perevagu p{
 	font-size: 16px;
 }
+.dostavka-oplata{
+	text-align: justify;
+	padding: 0 15px 50px 15px;
+	background-color: #4c5666;
+	color: #fff;
+}
+.dostavka-oplata span{
+	border-left: 2px solid #fff;
+	padding: 10px 20px;
+}
+.dostavka-oplata h2{
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.dostavka-oplata p{
+	text-align: center;
+	font-size: 16px;
+}
 /*modal window*/
 .modal-window-zam-har{
 	background-color: #fff;

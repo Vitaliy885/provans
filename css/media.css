@@ -77,6 +77,28 @@
 	.top-header .text-section ul{
 		width: 90% !important;
 	}
+		.harakteristiku h2{
+		font-size: 24px;
+	}
+	.perevagu-triggeru h2{
+		font-size: 24px;
+	}
+	.rozmiru h2{
+		font-size: 24px;
+	}
+	.rozmiru h3 span{
+		font-size: 18px;
+	}
+	.perevagu h2{
+		font-size: 24px;
+	} 
+	.dostavka-oplata h2{
+		font-size: 24px;
+	}
+
+	.galereya h2{
+		font-size: 24px;
+	}
 }
 @media only screen and (max-width: 1024px){
 
@@ -196,7 +218,11 @@
 	}
 	.perevagu h2{
 		font-size: 24px;
+	} 
+	.dostavka-oplata h2{
+		font-size: 24px;
 	}
+
 	.galereya h2{
 		font-size: 24px;
 	}
