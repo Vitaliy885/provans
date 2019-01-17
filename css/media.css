@@ -90,6 +90,12 @@
 	.modal-window-zam-har #form-two input{
 		width: 100%;
 	}
+	.swiper-container{
+		display: none;
+	}
+	.swiper-container2{
+		display: block;
+	}
 }
 
 @media screen and (max-width: 768px) and (min-width: 320px) {	
@@ -156,6 +162,18 @@
 	}
 	.order-za-harakterisikou{
 		font-size: 13px !important;
+	}
+	.harakteristiku h2{
+		font-size: 24px;
+	}
+	.rozmiru h2{
+		font-size: 24px;
+	}
+	.rozmiru h3 span{
+		font-size: 18px;
+	}
+	.perevagu h2{
+		font-size: 24px;
 	}
 }
 

@@ -100,7 +100,7 @@ body{
 }
 .harakteristiku{
 	text-align: center;
-	padding: 50px 15px;
+	padding: 50px 15px 30px 15px;
 }
 .harakteristiku span{
 	border-left: 2px solid #000;
@@ -140,6 +140,8 @@ body{
 	transition: all ease-in-out 0.2s;
 	border:1px solid #FF132A;
 	outline: none;
+	display: block;
+	margin: 40px auto;
 }
 .order-za-harakterisikou:hover{
 	text-decoration: none;
@@ -148,7 +150,10 @@ body{
 }
 .rozmiru{
 	text-align: justify;
-	padding: 50px 15px;
+	padding: 50px 15px 20px 15px;
+}
+.swiper-container2{
+	display: none;
 }
 .rozmiru span{
 	border-left: 2px solid #000;
@@ -182,7 +187,7 @@ body{
 }
 .perevagu{
 	text-align: justify;
-	padding: 50px 15px;
+	padding: 0 15px 50px 15px;
 }
 .perevagu span{
 	border-left: 2px solid #000;
@@ -236,10 +241,22 @@ body{
 	margin: 15px auto;
 	padding: 5px 10px;
 	outline: none;
+	width: 60%;
+	border: 1px solid #ccc;
 }
 .modal-window-zam-har #form-two #forma-skatertina{
 	display: block;
 	margin: 15px auto;
 	outline: none;
 	padding: 5px 10px;
+	width: 60%;
+	border: 1px solid #ccc;
+}
+.modal-window-zam-har #form-two #rozmir-skatertina{
+	display: block;
+	margin: 15px auto;
+	outline: none;
+	padding: 5px 10px;
+	width: 60%;
+	border: 1px solid #ccc;
 }
