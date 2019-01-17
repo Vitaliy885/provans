@@ -120,6 +120,28 @@ body{
 #clockdiv.hidden{
 	display: none;
 }
+.perevagu-triggeru{
+	text-align: center;
+	padding: 50px 15px 30px 15px;
+}
+.perevagu-triggeru .col-md-3{
+	margin: 20px auto;
+}
+.perevagu-triggeru .col-md-3 img{
+	height: 70px;
+	margin: 15px auto;
+}
+.perevagu-triggeru p{
+	font-size: 16px;
+}
+.perevagu-triggeru span{
+	border-left: 2px solid #000;
+	padding: 10px 20px;
+}
+.perevagu-triggeru h2{
+	text-transform: uppercase;
+	text-align: justify;
+}
 .harakteristiku{
 	text-align: center;
 	padding: 50px 15px 30px 15px;
