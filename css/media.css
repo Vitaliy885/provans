@@ -101,7 +101,9 @@
 	}
 }
 @media only screen and (max-width: 1024px){
-
+.inner-block{
+	padding: 20px 0;
+}
 }
 @media only screen and (max-width: 685px){
 
@@ -136,6 +138,9 @@
 	}
 	.top-header .text-section ul{
 		width: 70%;
+	}
+	.top-header .outer-block{
+		width: 100%;
 	}
 }
 
@@ -215,6 +220,9 @@
 	}
 	.rozmiru h3 span{
 		font-size: 18px;
+	}
+	.detali h2{
+		font-size: 24px;
 	}
 	.perevagu h2{
 		font-size: 24px;
