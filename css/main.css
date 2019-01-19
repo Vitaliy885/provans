@@ -142,7 +142,7 @@ body{
 }
 .perevagu-triggeru{
 	text-align: center;
-	padding: 50px 15px 30px 15px;
+	padding: 10px 15px 30px 15px;
 }
 .perevagu-triggeru .col-md-3{
 	margin: 20px auto;
@@ -269,9 +269,11 @@ body{
 	margin: 20px auto;
 	box-shadow: 5px 5px #ccc;
 	transition: all ease-in-out 0.2s;
+	position: relative;
 }
 .galereya img:hover{
-	transform: rotate(10deg);
+	transform: scale(1.2);
+	z-index: 9999; 	
 }
 .galereya span{
 	border-left: 2px solid #000;
