@@ -120,7 +120,7 @@ body{
 }
 .inner-block{
 	border: 1px solid #ccc;
-	padding: 20px 10px;
+	padding: 30px 10px;
 }
 .smalltext{
 	padding-top: 5px;
@@ -176,85 +176,13 @@ body{
 	text-align: justify;
 	margin-bottom: 40px;
 }
-.harakteristiku{
-	text-align: center;
-	padding: 50px 15px 30px 15px;
-}
-.harakteristiku span{
-	border-left: 2px solid #000;
-	padding: 10px 20px;
-}
-.harakteristiku h2{
-	text-transform: uppercase;
-	text-align: justify;
-}
-.harakteristiku ul{
-	text-align: left;
-	font-size: 16px;
-}
-.harakteristiku ul li{
-	margin: 5px auto;
-}
-.harakteristiku p{
-	font-size: 16px;
-}
-.harakteristiku h3{
-	text-transform: uppercase;	
-}
-.kremovui{
-	border-right: 40px solid #F5E5D5;
-}
-.jovtui{
-	border-right: 40px solid #FEFF73;
-}
-.rojevui{
-	border-right: 40px solid #FEC8C8;
-}
-.order-za-harakterisikou{
-	background-color: #FF132A;
-	color: #fff;
-	text-transform: uppercase;
-	padding: 15px 25px;
-	transition: all ease-in-out 0.2s;
-	border:1px solid #FF132A;
-	outline: none;
-	display: block;
-	margin: 40px auto;
-}
-.order-za-harakterisikou:hover{
-	text-decoration: none;
-	color: #fff;
-	box-shadow: 0 0 5px #000;
-}
-.rozmiru{
-	text-align: justify;
-	padding: 50px 15px 20px 15px;
-}
+
+
+
 .swiper-container2{
 	display: none;
 }
-.rozmiru span{
-	border-left: 2px solid #000;
-	padding: 10px 20px;
-}
-.rozmiru h2{
-	text-transform: uppercase;
-}
-.rozmiru h3 span{
-	background-color: #FF132A;
-	border-left: 1px solid #FF132A;
-	color: #fff;
-}
-.rozmiru table{
-	text-align: center;
-	margin: 0 auto;
-	font-size: 16px;
-}
-.price-zi-znujkou{
-	background-color: #FF132A;
-	color: #fff;
-	font-weight: 600;
-}
+
 .perekreclutu-price{
 	text-decoration-line: line-through;
 }
@@ -262,6 +190,18 @@ body{
 	text-transform: uppercase;
 	padding: 5px 10px;
 	text-align: center;
+}
+.katalog-modeley{
+	text-align: justify;
+	padding: 30px 15px 30px 15px;
+}
+.katalog-modeley span{
+	border-left: 2px solid #000;
+	padding: 10px 20px;
+}
+.katalog-modeley h2{
+	text-transform: uppercase;
+	margin-bottom: 40px;
 }
 .galereya{
 	text-align: justify;
@@ -439,4 +379,158 @@ body{
 	letter-spacing: 1px;
 	padding: 15px 20px;
 
+}
+
+/*katalog modeley*/
+.katalog-modeley .col-md-4{
+	margin-bottom: 20px;
+}
+.katalog-modeley h4{
+	text-align: center;
+	color: #fff;
+	background-color: #FF132A;
+}
+.katalog-modeley .blakutna{
+	background-image: url(../img/changed-size/blakutna-pryamokutna/DSC_0845.jpg);
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 300px;
+	width: 100%;
+}
+.katalog-modeley .bronzova{
+	background-image: url(../img/changed-size/bronzova-pryamokutna/DSC_0887.jpg);
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 300px;
+	width: 100%;
+}
+.katalog-modeley .kavova{
+	background-image: url(../img/changed-size/kavova-pryamokutna/DSC_0813.jpg);
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 300px;
+	width: 100%;
+}
+.katalog-modeley .kremova{
+	background-image: url(../img/changed-size/kremova-pryamokutna/DSC_0728.jpg);
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 300px;
+	width: 100%;
+}
+.katalog-modeley .rojeva-oval{
+	background-image: url(../img/changed-size/rojeva-oval/DSC_0829.jpg);
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 300px;
+	width: 100%;
+}
+.katalog-modeley .rojave-pryamokutna{
+	background-image: url(../img/changed-size/rojeva-pryamokutna/DSC_0513.jpg);
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 300px;
+	width: 100%;
+}
+.katalog-modeley .min-harakteristics{
+	border: 1px solid #ccc;
+	color: #000;
+}
+.katalog-modeley .min-harakteristics h4{
+	padding: 10px 5px;
+	color: #fff;
+	background-color: #FF132A;
+	margin-top: 0;
+}
+.katalog-modeley .title-modal{
+	padding: 20px 10px;
+}
+.katalog-modeley .title-modal .fa{
+	padding-right: 5px;
+	color: #d6c13b;
+}
+.katalog-modeley .title-modal ul{
+	list-style-type: none;
+}
+.rozmiru{
+	display: none;
+	cursor: pointer;
+}
+.katalog-modeley .title-modal .show-rozmiru{
+	margin-left: 5px;
+	color: #fff;
+	background-color: #FF132A;
+	padding: 5px 10px;
+}
+.katalog-modeley .title-modal .open-modal-blakutnuy{
+	display: block;
+	margin: 0 auto;
+	color: #fff;
+	background-color: #d6c13b;
+	padding: 5px 10px;
+	border: 1px solid #d6c13b;
+	font-size: 18px;
+}
+.katalog-modeley .title-modal .open-modal-bronzova{
+	display: block;
+	margin: 0 auto;
+	color: #fff;
+	background-color: #d6c13b;
+	padding: 5px 10px;
+	border: 1px solid #d6c13b;
+	font-size: 18px;
+}
+.katalog-modeley .title-modal .open-modal-kavova{
+	display: block;
+	margin: 0 auto;
+	color: #fff;
+	background-color: #d6c13b;
+	padding: 5px 10px;
+	border: 1px solid #d6c13b;
+	font-size: 18px;
+}
+.katalog-modeley .title-modal .open-modal-kremova{
+	display: block;
+	margin: 0 auto;
+	color: #fff;
+	background-color: #d6c13b;
+	padding: 5px 10px;
+	border: 1px solid #d6c13b;
+	font-size: 18px;
+}
+.katalog-modeley .title-modal .open-modal-rojeva-oval{
+	display: block;
+	margin: 0 auto;
+	color: #fff;
+	background-color: #d6c13b;
+	padding: 5px 10px;
+	border: 1px solid #d6c13b;
+	font-size: 18px;
+}
+.katalog-modeley .title-modal .open-modal-rojave-pryamokutna{
+	display: block;
+	margin: 0 auto;
+	color: #fff;
+	background-color: #d6c13b;
+	padding: 5px 10px;
+	border: 1px solid #d6c13b;
+	font-size: 18px;
 }

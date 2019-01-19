@@ -30,9 +30,7 @@
 		background-color: #FF132A;
 		padding: 5px 10px;
 	}
-	.harakteristiku{
-		padding: 0 15px 30px 15px;
-	}
+	
 	.galereya img:hover{
 		transform: scale(1);
 	}
@@ -81,22 +79,18 @@
 	.top-header .text-section ul{
 		width: 90% !important;
 	}
-	.harakteristiku h2{
-		font-size: 24px;
-	}
+	
 	.perevagu-triggeru h2{
 		font-size: 24px;
 	}
-	.rozmiru h2{
-		font-size: 24px;
-	}
-	.rozmiru h3 span{
-		font-size: 18px;
-	}
+
 	.detali h2{
 		font-size: 24px;
 	}
 	.perevagu h2{
+		font-size: 24px;
+	}
+	.katalog-modeley h2{
 		font-size: 24px;
 	} 
 	.dostavka-oplata h2{
@@ -126,15 +120,6 @@
 	}
 	.smaller-text-top{
 		font-size: 24px !important;
-	}
-	.order-za-harakterisikou{
-		font-size: 16px;
-	}
-	.modal-window-zam-har #form-two{
-		width: 80%;
-	}
-	.modal-window-zam-har #form-two input{
-		width: 100%;
 	}
 	.swiper-container{
 		display: none;
@@ -221,12 +206,7 @@
 	#clockdiv{
 		font-size: 24px;
 	}
-	.order-za-harakterisikou{
-		font-size: 13px !important;
-	}
-	.harakteristiku h2{
-		font-size: 24px;
-	}
+
 	.perevagu-triggeru h2{
 		font-size: 24px;
 	}

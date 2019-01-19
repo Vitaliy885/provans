@@ -10,5 +10,8 @@ $(document).ready(function() {
 	$(".zakrutu-modalku").click(function(){
 		$(".modal-window-zam-har").css("display","none");
 	});
+	$(".show-rozmiru").click(function(){
+		$(".rozmiru").slideToggle();
+	});
 
 });
