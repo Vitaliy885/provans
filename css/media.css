@@ -19,9 +19,7 @@
 	.top-header{
 		background-attachment: scroll;
 	}
-	.perevagu{
-		padding-top: 0;
-	}
+	
 	.modal-window-zam-har #form-two{
 		width: 70%;
 	}
@@ -37,6 +35,9 @@
 	}
 	.galereya img:hover{
 		transform: scale(1);
+	}
+	.block-dostavka-oplata-vidstup{
+		margin-bottom: 15px;
 	}
 }
 
@@ -92,14 +93,22 @@
 	.rozmiru h3 span{
 		font-size: 18px;
 	}
+	.detali h2{
+		font-size: 24px;
+	}
 	.perevagu h2{
 		font-size: 24px;
 	} 
 	.dostavka-oplata h2{
 		font-size: 24px;
 	}
-
 	.galereya h2{
+		font-size: 24px;
+	}
+	.footer{
+		padding: 50px 5px;
+	}
+	.footer h2{
 		font-size: 24px;
 	}
 }
@@ -144,6 +153,9 @@
 	}
 	.top-header .outer-block{
 		width: 100%;
+	}
+	.dostavka-oplata{
+		padding: 50px 0 50px 0;
 	}
 }
 

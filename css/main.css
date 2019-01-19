@@ -24,7 +24,7 @@ body{
 	font-size: 32px;
 	text-shadow: 1px 1px #000;
 	font-family: 'Roboto', sans-serif;
-		line-height: 1.7;
+	line-height: 1.7;
 }
 .top-header .text-section h1 span{
 	background-color: #fff;
@@ -161,10 +161,11 @@ body{
 .perevagu-triggeru h2{
 	text-transform: uppercase;
 	text-align: justify;
+	margin-bottom: 40px;
 }
 .detali{
 	text-align: center;
-	padding: 50px 15px 30px 15px;
+	padding: 0 15px 30px 15px;
 }
 .detali span{
 	border-left: 2px solid #000;
@@ -173,6 +174,7 @@ body{
 .detali h2{
 	text-transform: uppercase;
 	text-align: justify;
+	margin-bottom: 40px;
 }
 .harakteristiku{
 	text-align: center;
@@ -281,11 +283,11 @@ body{
 }
 .galereya h2{
 	text-transform: uppercase;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 .perevagu{
 	text-align: justify;
-	padding: 0 15px 50px 15px;
+	padding: 50px 15px 50px 15px;
 }
 .perevagu span{
 	border-left: 2px solid #000;
@@ -293,28 +295,60 @@ body{
 }
 .perevagu h2{
 	text-transform: uppercase;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
 .perevagu p{
 	font-size: 16px;
 }
+
 .dostavka-oplata{
 	text-align: justify;
-	padding: 0 15px 50px 15px;
-	background-color: #4c5666;
-	color: #fff;
-	transform:;
+	padding: 50px 15px 50px 15px;
+	background-color: #eaedef;
+	color: #000;
+}
+.dostavka-oplata .fa{
+	color: #FF132A;
+	margin: 5px;
 }
 .dostavka-oplata span{
-	border-left: 2px solid #fff;
+	border-left: 2px solid #000;
 	padding: 10px 20px;
 }
 .dostavka-oplata h2{
 	text-transform: uppercase;
-	margin-bottom: 20px;
+	margin-bottom: 55px;
 }
 .dostavka-oplata p{
 	text-align: center;
+	font-size: 16px;
+}
+.oplata{
+	background-color: #fff;
+	color: #000;
+	padding: 5px 15px;
+	line-height: 1.7;
+}
+.oplata h3{
+	text-align: center;
+	font-weight: 600;
+}
+.oplata p{
+	text-align: justify;
+	font-size: 16px;
+}
+.dostavka{
+	background-color: #fff;
+	color: #000;
+	padding: 5px 15px;
+	line-height: 1.7;
+}
+.dostavka h3{
+	text-align: center;
+	font-weight: 600;
+}
+.dostavka p{
+	text-align: justify;
 	font-size: 16px;
 }
 /*modal window*/
