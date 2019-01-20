@@ -21,6 +21,10 @@ $(document).ready(function() {
 		$(".fixed-znujka-modal").css("display","none");
 	});
 
+		$(".zakrutu-modal-blakutna").click(function(){
+		$(".fixed-blakutna-modal").css("display","none");
+	});
+
 
 
 
