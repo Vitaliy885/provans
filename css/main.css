@@ -261,6 +261,23 @@ body{
 	padding: 15px 25px;
 	border: 1px solid #ccc;
 }
+
+#form-blakutna img{
+	height: 150px;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+}
+#form-blakutna .size-blakutna{
+	padding: 15px 57px;
+	border: 1px solid #ccc;
+}
+.zamovutu-blakutna{
+	background-color: #FF132A;
+	color: #fff;
+	border: 1px solid #FF132A;
+	font-size: 16px;
+	padding: 5px 10px;
+}
 .zakrutu-modal-blakutna{
 	position: absolute;
 	right: 20px;
@@ -481,7 +498,7 @@ body{
 	font-size: 18px;
 	letter-spacing: 1px;
 	padding: 15px 20px;
-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
 }
 
 /*katalog modeley*/
