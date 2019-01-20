@@ -3,11 +3,6 @@ $(document).ready(function() {
 	$(document).ready(function(){
 		$('.btn-up').mPageScroll2id();
 	});
-	$(".order-za-harakterisikou").click(function(){
-		$(".modal-window-zam-har").css("display","block");
-	});
-
-
 
 
 	$(".ymovu-povernennya").click(function(){
@@ -16,6 +11,14 @@ $(document).ready(function() {
 
 	$(".zakrutu").click(function(){
 		$(".fixed-ymovu-modal").css("display","none");
+	});
+
+	$(".btn-order-info").click(function(){
+		$(".fixed-znujka-modal").css("display","block");
+	});
+
+	$(".zakrutu-modal-znujka").click(function(){
+		$(".fixed-znujka-modal").css("display","none");
 	});
 
 

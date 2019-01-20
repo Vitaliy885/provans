@@ -20,12 +20,6 @@
 		background-attachment: scroll;
 	}
 	
-	.modal-window-zam-har #form-two{
-		width: 70%;
-	}
-	.modal-window-zam-har #form-two input{
-		width: 75%;
-	}
 	.footer #form-three span{
 		background-color: #FF132A;
 		padding: 5px 10px;
@@ -37,6 +31,9 @@
 		margin-bottom: 15px;
 	}
 	.alert-ymovu{
+		width: 70%;
+	}
+	.alert-znujka{
 		width: 70%;
 	}
 }
@@ -149,6 +146,9 @@
 		padding: 50px 0 50px 0;
 	}
 	.alert-ymovu{
+		width: 90%;
+	}
+	.alert-znujka{
 		width: 90%;
 	}
 }
