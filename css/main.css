@@ -462,6 +462,8 @@ body{
 }
 .katalog-modeley .title-modal{
 	padding: 20px 10px;
+	border: 1px solid #ccc;
+	margin: 0 8px 8px 8px;
 }
 .katalog-modeley .title-modal .fa{
 	padding-right: 5px;
@@ -488,6 +490,7 @@ body{
 	padding: 5px 10px;
 	border: 1px solid #d6c13b;
 	font-size: 18px;
+	margin-top: 20px;
 }
 .katalog-modeley .title-modal .open-modal-bronzova{
 	display: block;
@@ -497,6 +500,7 @@ body{
 	padding: 5px 10px;
 	border: 1px solid #d6c13b;
 	font-size: 18px;
+	margin-top: 20px;
 }
 .katalog-modeley .title-modal .open-modal-kavova{
 	display: block;
@@ -506,6 +510,7 @@ body{
 	padding: 5px 10px;
 	border: 1px solid #d6c13b;
 	font-size: 18px;
+	margin-top: 20px;
 }
 .katalog-modeley .title-modal .open-modal-kremova{
 	display: block;
@@ -515,6 +520,7 @@ body{
 	padding: 5px 10px;
 	border: 1px solid #d6c13b;
 	font-size: 18px;
+	margin-top: 20px;
 }
 .katalog-modeley .title-modal .open-modal-rojeva-oval{
 	display: block;
@@ -524,6 +530,7 @@ body{
 	padding: 5px 10px;
 	border: 1px solid #d6c13b;
 	font-size: 18px;
+	margin-top: 20px;
 }
 .katalog-modeley .title-modal .open-modal-rojave-pryamokutna{
 	display: block;
@@ -533,4 +540,5 @@ body{
 	padding: 5px 10px;
 	border: 1px solid #d6c13b;
 	font-size: 18px;
+	margin-top: 20px;
 }
