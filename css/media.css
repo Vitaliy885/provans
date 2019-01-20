@@ -99,6 +99,10 @@
 	.galereya h2{
 		font-size: 24px;
 	}
+	.how-to-order h2{
+		font-size: 24px;
+	}
+
 	.footer{
 		padding: 50px 5px;
 	}
@@ -228,6 +232,12 @@
 
 	.galereya h2{
 		font-size: 24px;
+	}
+	.how-to-order{
+		padding: 0 0 50px 0;
+	}
+	.how-to-order .choose-komplekt{
+		letter-spacing: 0;
 	}
 }
 

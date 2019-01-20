@@ -240,7 +240,41 @@ body{
 .perevagu p{
 	font-size: 16px;
 }
-
+.how-to-order{
+text-align: center;
+	padding: 0 15px 50px 15px;
+}
+.how-to-order span{
+	border-left: 2px solid #000;
+	padding: 10px 20px;
+}
+.how-to-order h2{
+	text-transform: uppercase;
+	margin-bottom: 50px;
+		text-align: justify;
+}
+.how-to-order .order-triggers{
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 25px;
+}
+.how-to-order .order-triggers .fa{
+	background-color: #FF132A;
+	color: #fff;
+	padding: 10px;
+	border-radius: 50%;
+	margin: 10px;
+}
+.how-to-order .choose-komplekt {
+	padding: 10px 15px;
+	color: #fff;
+	background-color: #FF132A;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.how-to-order .choose-komplekt:hover{
+	text-decoration: none;
+}
 .dostavka-oplata{
 	text-align: justify;
 	padding: 50px 15px 50px 15px;
@@ -464,6 +498,7 @@ body{
 	padding: 20px 10px;
 	border: 1px solid #ccc;
 	margin: 0 8px 8px 8px;
+	font-size: 16px;
 }
 .katalog-modeley .title-modal .fa{
 	padding-right: 5px;
@@ -472,15 +507,65 @@ body{
 .katalog-modeley .title-modal ul{
 	list-style-type: none;
 }
-.rozmiru{
+.rozmiru-one{
 	display: none;
-	cursor: pointer;
 }
-.katalog-modeley .title-modal .show-rozmiru{
+.rozmiru-two{
+	display: none;
+}
+.rozmiru-three{
+	display: none;
+}
+.rozmiru-four{
+	display: none;
+}
+.rozmiru-five{
+	display: none;
+}
+.rozmiru-six{
+	display: none;
+}
+.katalog-modeley .title-modal .show-rozmiru-one{
 	margin-left: 5px;
 	color: #fff;
 	background-color: #FF132A;
 	padding: 5px 10px;
+	cursor: pointer;
+}
+.katalog-modeley .title-modal .show-rozmiru-two{
+	margin-left: 5px;
+	color: #fff;
+	background-color: #FF132A;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.katalog-modeley .title-modal .show-rozmiru-three{
+	margin-left: 5px;
+	color: #fff;
+	background-color: #FF132A;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.katalog-modeley .title-modal .show-rozmiru-four{
+	margin-left: 5px;
+	color: #fff;
+	background-color: #FF132A;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.katalog-modeley .title-modal .show-rozmiru-five{
+	margin-left: 5px;
+	color: #fff;
+	background-color: #FF132A;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.katalog-modeley .title-modal .show-rozmiru-six{
+	margin-left: 5px;
+	color: #fff;
+	background-color: #FF132A;
+	padding: 5px 10px;
+	cursor: pointer;
 }
 .katalog-modeley .title-modal .open-modal-blakutnuy{
 	display: block;
