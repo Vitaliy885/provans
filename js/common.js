@@ -7,6 +7,21 @@ $(document).ready(function() {
 		$(".modal-window-zam-har").css("display","block");
 	});
 
+
+
+
+	$(".ymovu-povernennya").click(function(){
+		$(".fixed-ymovu-modal").css("display","block");
+	});
+
+	$(".zakrutu").click(function(){
+		$(".fixed-ymovu-modal").css("display","none");
+	});
+
+
+
+
+
 	$(".zakrutu-modalku").click(function(){
 		$(".modal-window-zam-har").css("display","none");
 	});

@@ -163,6 +163,15 @@ body{
 	text-align: justify;
 	margin-bottom: 40px;
 }
+.ymovu-povernennya{
+	background-color: #FF132A;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 10px 15px;
+	letter-spacing: 1px;
+	border: 1px solid #FF132A;
+	box-shadow: 1px 1px 3px #000;
+}
 .detali{
 	text-align: center;
 	padding: 0 15px 30px 15px;
@@ -176,9 +185,47 @@ body{
 	text-align: justify;
 	margin-bottom: 40px;
 }
-
-
-
+/*modalka ymovu povernennya i oplatu*/
+.fixed-ymovu-modal{
+	position: fixed;
+	overflow: auto;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 9999;
+	display: none;
+}
+.alert-ymovu{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);	
+	z-index: 9999;
+	background-color: #fff;
+	padding: 50px 30px;
+	border: 1px solid #000;
+	text-align: center;
+	display: block;
+}
+.fixed-ymovu-modal .alert-ymovu h4{
+	font-weight: 600;
+}
+.fixed-ymovu-modal .alert-ymovu p{
+	text-align: left;
+}
+.fixed-ymovu-modal .alert-ymovu p .fa{
+	color: #FF132A;
+	padding: 5px;
+}
+.fixed-ymovu-modal .alert-ymovu .zakrutu{
+	background-color: #FF132A;
+	color: #fff;
+	border: 1px solid #FF132A;
+	font-size: 16px;
+	padding: 5px 10px;
+}
 .swiper-container2{
 	display: none;
 }
@@ -241,7 +288,7 @@ body{
 	font-size: 16px;
 }
 .how-to-order{
-text-align: center;
+	text-align: center;
 	padding: 0 15px 50px 15px;
 }
 .how-to-order span{
@@ -251,7 +298,7 @@ text-align: center;
 .how-to-order h2{
 	text-transform: uppercase;
 	margin-bottom: 50px;
-		text-align: justify;
+	text-align: justify;
 }
 .how-to-order .order-triggers{
 	text-align: center;
@@ -271,6 +318,7 @@ text-align: center;
 	background-color: #FF132A;
 	font-size: 16px;
 	letter-spacing: 1px;
+	box-shadow: 1px 1px 3px #000;
 }
 .how-to-order .choose-komplekt:hover{
 	text-decoration: none;
@@ -325,68 +373,7 @@ text-align: center;
 	text-align: justify;
 	font-size: 16px;
 }
-/*modal window*/
-.modal-window-zam-har{
-	background-color: #fff;
-	position: fixed;
-	z-index: 9998;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;	
-	text-align: center;
-	display: none;
-}
-.modal-window-zam-har #form-two{
-	position: absolute;
-	transform: translate(-50%, -50%);
-	top: 50%;
-	left: 50%;
-	z-index: 9999;
-	box-shadow: 0 0 5px #000;
-	width: 50%;
-	padding: 20px;
-}
-.modal-window-zam-har #form-two .fa{
-	position: absolute;
-	right: 15px;
-	top: 10px;
-	z-index: 9999;
-	cursor: pointer;
-}
-.modal-window-zam-har #form-two input{
-	display: block;
-	margin: 20px auto;
-	padding: 15px 30px;
-	border: 1px solid #ccc;
-	width: 60%;
-	letter-spacing: 1px;
-	color: #000;
-}
-.modal-window-zam-har #form-two #color-skatertina{
-	display: block;
-	margin: 15px auto;
-	padding: 5px 10px;
-	outline: none;
-	width: 60%;
-	border: 1px solid #ccc;
-}
-.modal-window-zam-har #form-two #forma-skatertina{
-	display: block;
-	margin: 15px auto;
-	outline: none;
-	padding: 5px 10px;
-	width: 60%;
-	border: 1px solid #ccc;
-}
-.modal-window-zam-har #form-two #rozmir-skatertina{
-	display: block;
-	margin: 15px auto;
-	outline: none;
-	padding: 5px 10px;
-	width: 60%;
-	border: 1px solid #ccc;
-}
+
 .footer{
 	background-image: url(../img/9a.jpg);
 	background-repeat: no-repeat;
@@ -412,7 +399,7 @@ text-align: center;
 	font-size: 18px;
 	letter-spacing: 1px;
 	padding: 15px 20px;
-
+box-shadow: 1px 1px 3px #000;
 }
 
 /*katalog modeley*/
@@ -528,42 +515,42 @@ text-align: center;
 .katalog-modeley .title-modal .show-rozmiru-one{
 	margin-left: 5px;
 	color: #fff;
-	background-color: #FF132A;
+	background-color: #d6c13b;
 	padding: 5px 10px;
 	cursor: pointer;
 }
 .katalog-modeley .title-modal .show-rozmiru-two{
 	margin-left: 5px;
 	color: #fff;
-	background-color: #FF132A;
+	background-color: #d6c13b;
 	padding: 5px 10px;
 	cursor: pointer;
 }
 .katalog-modeley .title-modal .show-rozmiru-three{
 	margin-left: 5px;
 	color: #fff;
-	background-color: #FF132A;
+	background-color: #d6c13b;
 	padding: 5px 10px;
 	cursor: pointer;
 }
 .katalog-modeley .title-modal .show-rozmiru-four{
 	margin-left: 5px;
 	color: #fff;
-	background-color: #FF132A;
+	background-color: #d6c13b;
 	padding: 5px 10px;
 	cursor: pointer;
 }
 .katalog-modeley .title-modal .show-rozmiru-five{
 	margin-left: 5px;
 	color: #fff;
-	background-color: #FF132A;
+	background-color: #d6c13b;
 	padding: 5px 10px;
 	cursor: pointer;
 }
 .katalog-modeley .title-modal .show-rozmiru-six{
 	margin-left: 5px;
 	color: #fff;
-	background-color: #FF132A;
+	background-color: #d6c13b;
 	padding: 5px 10px;
 	cursor: pointer;
 }
@@ -571,59 +558,65 @@ text-align: center;
 	display: block;
 	margin: 0 auto;
 	color: #fff;
-	background-color: #d6c13b;
+	background-color: #FF132A;
 	padding: 5px 10px;
-	border: 1px solid #d6c13b;
+	border: 1px solid #FF132A;
 	font-size: 18px;
 	margin-top: 20px;
+	box-shadow: 1px 1px 3px #000;
 }
 .katalog-modeley .title-modal .open-modal-bronzova{
 	display: block;
 	margin: 0 auto;
 	color: #fff;
-	background-color: #d6c13b;
+	background-color: #FF132A;
 	padding: 5px 10px;
-	border: 1px solid #d6c13b;
+	border: 1px solid #FF132A;
 	font-size: 18px;
 	margin-top: 20px;
+	box-shadow: 1px 1px 3px #000;
 }
 .katalog-modeley .title-modal .open-modal-kavova{
 	display: block;
 	margin: 0 auto;
 	color: #fff;
-	background-color: #d6c13b;
+	background-color: #FF132A;
 	padding: 5px 10px;
-	border: 1px solid #d6c13b;
+	border: 1px solid #FF132A;
 	font-size: 18px;
 	margin-top: 20px;
+	box-shadow: 1px 1px 3px #000;
 }
 .katalog-modeley .title-modal .open-modal-kremova{
 	display: block;
 	margin: 0 auto;
 	color: #fff;
-	background-color: #d6c13b;
+	background-color: #FF132A;
 	padding: 5px 10px;
-	border: 1px solid #d6c13b;
+	border: 1px solid #FF132A;
 	font-size: 18px;
 	margin-top: 20px;
+	box-shadow: 1px 1px 3px #000;
 }
 .katalog-modeley .title-modal .open-modal-rojeva-oval{
 	display: block;
 	margin: 0 auto;
 	color: #fff;
-	background-color: #d6c13b;
+	background-color: #FF132A;
 	padding: 5px 10px;
-	border: 1px solid #d6c13b;
+	border: 1px solid #FF132A;
 	font-size: 18px;
 	margin-top: 20px;
+	box-shadow: 1px 1px 3px #000;
 }
 .katalog-modeley .title-modal .open-modal-rojave-pryamokutna{
 	display: block;
 	margin: 0 auto;
 	color: #fff;
-	background-color: #d6c13b;
+	background-color: #FF132A;
 	padding: 5px 10px;
-	border: 1px solid #d6c13b;
+	border: 1px solid #FF132A;
 	font-size: 18px;
 	margin-top: 20px;
+	box-shadow: 1px 1px 3px #000;
 }

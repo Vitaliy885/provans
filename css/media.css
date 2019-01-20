@@ -30,12 +30,14 @@
 		background-color: #FF132A;
 		padding: 5px 10px;
 	}
-	
 	.galereya img:hover{
 		transform: scale(1);
 	}
 	.block-dostavka-oplata-vidstup{
 		margin-bottom: 15px;
+	}
+	.alert-ymovu{
+		width: 70%;
 	}
 }
 
@@ -145,6 +147,9 @@
 	}
 	.dostavka-oplata{
 		padding: 50px 0 50px 0;
+	}
+	.alert-ymovu{
+		width: 90%;
 	}
 }
 
