@@ -25,6 +25,11 @@ $(document).ready(function() {
 		$(".fixed-blakutna-modal").css("display","none");
 	});
 
+			$(".open-modal-blakutnuy").click(function(){
+		$(".fixed-blakutna-modal").css("display","block");
+	});
+
+
 
 
 
