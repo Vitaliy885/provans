@@ -51,6 +51,9 @@
 	.alert-rojeva{
 		width: 70%;
 	}
+	.alert-rojave-pryamokutna{
+		width: 70%;
+	}
 }
 
 
@@ -187,6 +190,11 @@
 		overflow-y: scroll;
 	}
 	.alert-rojeva{
+		width: 90%;
+		height: 80%;
+		overflow-y: scroll;
+	}
+	.alert-rojave-pryamokutna{
 		width: 90%;
 		height: 80%;
 		overflow-y: scroll;

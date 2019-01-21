@@ -61,6 +61,15 @@ $(document).ready(function() {
 		$(".fixed-rojeva-modal").css("display","block");
 	});
 
+		$(".zakrutu-modal-rojave-pryamokutna").click(function(){
+		$(".fixed-rojave-pryamokutna-modal").css("display","none");
+	});
+
+	$(".open-modal-rojave-pryamokutna").click(function(){
+		$(".fixed-rojave-pryamokutna-modal").css("display","block");
+	});
+
+
 
 
 
