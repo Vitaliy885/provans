@@ -47,6 +47,7 @@ body{
 	color: #fff;
 	width: 50%;
 	margin: 10px auto;
+	 list-style-image: url(../img/flower.png);
 }
 .top-header .text-section ul li{
 	letter-spacing: 1px;
@@ -54,7 +55,9 @@ body{
 	font-weight: 600;
 	font-family: 'Kurale', serif;
 	margin: 5px auto;
+	text-align: left;
 }
+
 .top-header .text-section p{
 	font-size: 18px;
 }
