@@ -13,13 +13,6 @@ $(document).ready(function() {
 		$(".fixed-ymovu-modal").css("display","none");
 	});
 
-	$(".btn-order-info").click(function(){
-		$(".fixed-znujka-modal").css("display","block");
-	});
-
-	$(".zakrutu-modal-znujka").click(function(){
-		$(".fixed-znujka-modal").css("display","none");
-	});
 
 	$(".zakrutu-modal-blakutna").click(function(){
 		$(".fixed-blakutna-modal").css("display","none");
