@@ -37,13 +37,31 @@ $(document).ready(function() {
 		$(".fixed-bronzova-modal").css("display","block");
 	});
 
-		$(".zakrutu-modal-kavova").click(function(){
+	$(".zakrutu-modal-kavova").click(function(){
 		$(".fixed-kavova-modal").css("display","none");
 	});
 
 	$(".open-modal-kavova").click(function(){
 		$(".fixed-kavova-modal").css("display","block");
 	});
+
+	$(".zakrutu-modal-kremova").click(function(){
+		$(".fixed-kremova-modal").css("display","none");
+	});
+
+	$(".open-modal-kremova").click(function(){
+		$(".fixed-kremova-modal").css("display","block");
+	});
+
+	$(".zakrutu-modal-rojeva").click(function(){
+		$(".fixed-rojeva-modal").css("display","none");
+	});
+
+	$(".open-modal-rojeva-oval").click(function(){
+		$(".fixed-rojeva-modal").css("display","block");
+	});
+
+
 
 
 

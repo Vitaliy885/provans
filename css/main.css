@@ -391,6 +391,112 @@ body{
 	top: 20px;
 	cursor: pointer;
 }
+/*modalka kremova*/
+.fixed-kremova-modal{
+	position: fixed;
+	overflow: auto;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 9999;
+	display: none;
+}
+.alert-kremova{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);	
+	z-index: 9999;
+	background-color: #fff;
+	padding: 50px 30px;
+	border: 1px solid #000;
+	text-align: center;
+	display: block;
+}
+#form-kremova input{
+	display: block;
+	margin: 20px auto;
+	padding: 15px 25px;
+	border: 1px solid #ccc;
+}
+
+#form-kremova img{
+	height: 150px;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+}
+#form-kremova .size-kremova{
+	padding: 15px 57px;
+	border: 1px solid #ccc;
+}
+.zamovutu-kremova{
+	background-color: #FF132A;
+	color: #fff;
+	border: 1px solid #FF132A;
+	font-size: 16px;
+	padding: 5px 10px;
+}
+.zakrutu-modal-kremova{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	cursor: pointer;
+}
+/*modalka rojeva*/
+.fixed-rojeva-modal{
+	position: fixed;
+	overflow: auto;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 9999;
+	display: none;
+}
+.alert-rojeva{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);	
+	z-index: 9999;
+	background-color: #fff;
+	padding: 50px 30px;
+	border: 1px solid #000;
+	text-align: center;
+	display: block;
+}
+#form-rojeva input{
+	display: block;
+	margin: 20px auto;
+	padding: 15px 25px;
+	border: 1px solid #ccc;
+}
+
+#form-rojeva img{
+	height: 150px;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+}
+#form-rojeva .size-rojeva{
+	padding: 15px 57px;
+	border: 1px solid #ccc;
+}
+.zamovutu-rojeva{
+	background-color: #FF132A;
+	color: #fff;
+	border: 1px solid #FF132A;
+	font-size: 16px;
+	padding: 5px 10px;
+}
+.zakrutu-modal-rojeva{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	cursor: pointer;
+}
 /*modalka ymovu povernennya i oplatu*/
 .fixed-ymovu-modal{
 	position: fixed;

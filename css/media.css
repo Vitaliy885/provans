@@ -45,6 +45,12 @@
 	.alert-kavova{
 		width: 70%;
 	}
+	.alert-kremova{
+		width: 70%;
+	}
+	.alert-rojeva{
+		width: 70%;
+	}
 }
 
 
@@ -171,6 +177,16 @@
 		overflow-y: scroll;
 	}
 	.alert-kavova{
+		width: 90%;
+		height: 80%;
+		overflow-y: scroll;
+	}
+	.alert-kremova{
+		width: 90%;
+		height: 80%;
+		overflow-y: scroll;
+	}
+	.alert-rojeva{
 		width: 90%;
 		height: 80%;
 		overflow-y: scroll;
