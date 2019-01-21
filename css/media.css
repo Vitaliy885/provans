@@ -165,6 +165,8 @@
 	}
 	.alert-ymovu{
 		width: 90%;
+		height: 90%;
+		overflow-y: scroll;
 	}
 	.alert-znujka{
 		width: 90%;
