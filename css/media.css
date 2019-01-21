@@ -116,12 +116,14 @@
 	.how-to-order h2{
 		font-size: 24px;
 	}
-
 	.footer{
 		padding: 50px 5px;
 	}
 	.footer h2{
 		font-size: 24px;
+	}
+	.katalog-modeley .title-modal ul{
+		margin-left: -30px;
 	}
 }
 @media only screen and (max-width: 1024px){
@@ -197,8 +199,13 @@
 	}
 }
 
-@media screen and (max-width: 768px) and (min-width: 320px) {	
-	
+@media screen and (max-width: 1199px) and (min-width: 992px) {	
+	.katalog-modeley .title-modal ul{
+		margin-left: -40px;
+	}
+	.title-price-znujka{
+		margin-left: 20px;
+	}
 }
 
 @media screen and (max-width: 425px) and (min-width: 425px) {
@@ -259,7 +266,6 @@
 	#clockdiv{
 		font-size: 24px;
 	}
-
 	.perevagu-triggeru h2{
 		font-size: 24px;
 	}
@@ -287,6 +293,12 @@
 	}
 	.how-to-order .choose-komplekt{
 		letter-spacing: 0;
+	}
+	.katalog-modeley .title-modal ul{
+		margin-left: -40px;
+	}
+	.title-price-znujka{
+		margin-left: 2px;	
 	}
 }
 

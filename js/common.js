@@ -74,28 +74,5 @@ $(document).ready(function() {
 		$(".modal-window-zam-har").css("display","none");
 	});
 
-	$(".show-rozmiru-one").click(function(){
-		$(".rozmiru-one").slideToggle();	
-	});
-
-	$(".show-rozmiru-two").click(function(){
-		$(".rozmiru-two").slideToggle();	
-	});
-
-	$(".show-rozmiru-three").click(function(){
-		$(".rozmiru-three").slideToggle();	
-	});
-
-	$(".show-rozmiru-four").click(function(){
-		$(".rozmiru-four").slideToggle();	
-	});
-
-	$(".show-rozmiru-five").click(function(){
-		$(".rozmiru-five").slideToggle();	
-	});
-
-	$(".show-rozmiru-six").click(function(){
-		$(".rozmiru-six").slideToggle();	
-	});
 
 });

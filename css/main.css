@@ -829,66 +829,7 @@ body{
 .katalog-modeley .title-modal ul{
 	list-style-type: none;
 }
-.rozmiru-one{
-	display: none;
-}
-.rozmiru-two{
-	display: none;
-}
-.rozmiru-three{
-	display: none;
-}
-.rozmiru-four{
-	display: none;
-}
-.rozmiru-five{
-	display: none;
-}
-.rozmiru-six{
-	display: none;
-}
-.katalog-modeley .title-modal .show-rozmiru-one{
-	margin-left: 5px;
-	color: #fff;
-	background-color: #d6c13b;
-	padding: 5px 10px;
-	cursor: pointer;
-}
-.katalog-modeley .title-modal .show-rozmiru-two{
-	margin-left: 5px;
-	color: #fff;
-	background-color: #d6c13b;
-	padding: 5px 10px;
-	cursor: pointer;
-}
-.katalog-modeley .title-modal .show-rozmiru-three{
-	margin-left: 5px;
-	color: #fff;
-	background-color: #d6c13b;
-	padding: 5px 10px;
-	cursor: pointer;
-}
-.katalog-modeley .title-modal .show-rozmiru-four{
-	margin-left: 5px;
-	color: #fff;
-	background-color: #d6c13b;
-	padding: 5px 10px;
-	cursor: pointer;
-}
-.katalog-modeley .title-modal .show-rozmiru-five{
-	margin-left: 5px;
-	color: #fff;
-	background-color: #d6c13b;
-	padding: 5px 10px;
-	cursor: pointer;
-}
-.katalog-modeley .title-modal .show-rozmiru-six{
-	margin-left: 5px;
-	color: #fff;
-	background-color: #d6c13b;
-	padding: 5px 10px;
-	cursor: pointer;
-}
+
 .katalog-modeley .title-modal .open-modal-blakutnuy{
 	display: block;
 	margin: 0 auto;
@@ -963,4 +904,7 @@ body{
 .price-across{
 	text-decoration: line-through;
 	font-size: 14px;
+}
+.title-price-znujka{
+	margin-left: 50px;
 }
