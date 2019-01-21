@@ -39,6 +39,12 @@
 	.alert-blakutna{
 		width: 70%;
 	}
+	.alert-bronzova{
+		width: 70%;
+	}
+	.alert-kavova{
+		width: 70%;
+	}
 }
 
 
@@ -155,6 +161,16 @@
 		width: 90%;
 	}
 	.alert-blakutna{
+		width: 90%;
+		height: 80%;
+		overflow-y: scroll;
+	}
+	.alert-bronzova{
+		width: 90%;
+		height: 80%;
+		overflow-y: scroll;
+	}
+	.alert-kavova{
 		width: 90%;
 		height: 80%;
 		overflow-y: scroll;
