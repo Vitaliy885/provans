@@ -140,6 +140,11 @@
 		margin-left: 20px;
 	}
 }
+@media only screen and (max-width: 336px){
+	.title-price-znujka{
+		margin-left: 5px;
+	}
+}
 @media only screen and (max-width: 425px){
 	.top-header form{
 		width: 90%;
