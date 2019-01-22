@@ -125,14 +125,20 @@
 	.katalog-modeley .title-modal ul{
 		margin-left: -30px;
 	}
+
 }
 @media only screen and (max-width: 1024px){
 	.inner-block{
 		padding: 20px 0;
 	}
 }
-@media only screen and (max-width: 685px){
-
+@media only screen and (max-width: 483px){
+	.how-to-order .choose-komplekt{
+		display: block;
+	}
+	.title-price-znujka{
+		margin-left: 20px;
+	}
 }
 @media only screen and (max-width: 425px){
 	.top-header form{
