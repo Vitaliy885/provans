@@ -125,7 +125,9 @@
 	.katalog-modeley .title-modal ul{
 		margin-left: -30px;
 	}
-
+	.katalog-modeley .title-modal .fa{
+		padding-right: 0;
+	}
 }
 @media only screen and (max-width: 1024px){
 	.inner-block{
@@ -208,9 +210,7 @@
 	.katalog-modeley .title-modal ul{
 		margin-left: -40px;
 	}
-	.title-price-znujka{
-		margin-left: 20px;
-	}
+
 }
 
 @media screen and (max-width: 425px) and (min-width: 425px) {
@@ -302,8 +302,8 @@
 	.katalog-modeley .title-modal ul{
 		margin-left: -40px;
 	}
-	.title-price-znujka{
-		margin-left: 2px;	
+	.katalog-modeley .title-modal{
+		font-size: 14px;
 	}
 }
 
