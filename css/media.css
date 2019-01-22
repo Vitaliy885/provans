@@ -145,6 +145,16 @@
 		margin-left: 5px;
 	}
 }
+@media only screen and (max-width: 321px){
+	.title-price-znujka{
+		margin-left: 2px;
+	}
+}
+@media only screen and (max-width: 321px){
+	.title-price-znujka{
+		margin-left: 0 !important;
+	}
+}
 @media only screen and (max-width: 425px){
 	.top-header form{
 		width: 90%;
